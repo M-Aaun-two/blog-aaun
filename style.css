@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background-color: white;
+    padding: 24px;
+    border-radius: 20px;
+    border: #111111 1px solid;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.main:hover {
+    box-shadow: 16px 16px 0 rgba(0, 0, 0, 1);
+}
+
+
+
+.img {
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.text {
+    width: 336px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.learn-div {
+    width: 82px;
+    height: 29px;
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn {
+    
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Figtree", sans-serif;
+    color: #111111;
+}
+
+.date {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Figtree", sans-serif;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.head {
+    color: #111111;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: 800;
+    text-align: left;
+    font-family: "Figtree", sans-serif;
+}
+
+.main:hover .head {
+    color: #F4D04E;
+}
+
+.para {
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: 500;
+    text-align: left;
+    font-family: "Figtree", sans-serif;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 5.5px;
+
+}
+
+.name {
+    color: #111111;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: 800;
+    text-align: left;
+    font-family: "Figtree", sans-serif;
+}
